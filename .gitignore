@@ -1,0 +1,6 @@
+venv/
+build/
+target/
+local.properties
+.idea/
+wrapper/
