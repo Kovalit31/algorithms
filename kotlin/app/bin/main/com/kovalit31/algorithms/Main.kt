@@ -3,20 +3,14 @@
  */
 package com.kovalit31.algorithms
 
-public class Main {
+public object Main {
+    @JvmStatic
+    val greeting = "Hello!"
 
-
-    companion object {
-        val greeting: String
-            get() {
-                return "Hello World!"
-            }
-        @JvmStatic
-        public fun main(args: Array<String>) {
-            println(this.greeting)
-        }
+    @JvmStatic
+    public fun main(args: Array<String>) {
+        println(this.greeting)
     }
-
 
 }
 
